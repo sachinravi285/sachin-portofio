@@ -1,6 +1,6 @@
-import img1 from '../components/images/3.png';
-import img2 from '../components/images/4.jpg';
-import img3 from '../components/images/5.jpg';
+import img1 from '../images/3.png';
+import img2 from '../images/4.jpg';
+import img3 from '../images/5.jpg';
 
 function Projects() {
   const projects = [

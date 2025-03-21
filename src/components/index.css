@@ -4,6 +4,11 @@
   --dark: #0d0d2b;
   --accent: #ff4d7d;
   --glass: rgba(255, 255, 255, 0.05);
+  --footer-background: #0d0d2b;
+  --light: #ffffff;
+  --gray: #cccccc;
+  --card-background: rgba(26, 26, 61, 0.8);
+  --background: #1a1a3d;
 }
 
 * {
@@ -107,8 +112,7 @@ nav {
 /* Hero Section */
 .hero {
   height: 100vh;
-  background: linear-gradient(#0d0d2b, #1a1a3d),
-      url("images/2.jpg") no-repeat center center/cover;
+  background: url("images/2.jpg") no-repeat center center / cover;
   background-blend-mode: multiply;
   display: flex;
   align-items: center;
@@ -173,7 +177,7 @@ nav {
 }
 
 .service-item {
-  background: rgba(26, 26, 61, 0.8);
+  background: var(--card-background);
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
@@ -317,45 +321,46 @@ footer {
 /* Animations */
 @keyframes fadeIn {
   from {
-      opacity: 0;
-      transform: translateY(20px);
+    opacity: 0;
+    transform: translateY(20px);
   }
   to {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
 @media (max-width: 768px) {
   .menu-toggle {
-      display: block; /* Show the hamburger icon */
+    display: block; /* Show the hamburger icon */
   }
 
   .nav-links {
-      position: fixed;
-      top: 70px;
-      right: -100%;
-      flex-direction: column;
-      background: var(--dark);
-      width: 100%;
-      text-align: center;
-      padding: 2rem 0;
-      transition: 0.3s;
+    position: fixed;
+    top: 70px;
+    right: -100%;
+    flex-direction: column;
+    background: var(--dark);
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+    transition: 0.3s;
   }
 
   .nav-links.active {
-      right: 0; /* Show the menu */
+    right: 0; /* Show the menu */
   }
 
   .menu-toggle.active .hamburger:nth-child(1) {
-      transform: rotate(0deg) translate(5px, 5px);
+    transform: rotate(0deg) translate(5px, 5px);
   }
 
   .menu-toggle.active .hamburger:nth-child(2) {
-      opacity: 0;
+    opacity: 0;
   }
 
   .menu-toggle.active .hamburger:nth-child(3) {
-      transform: rotate(-45deg) translate(7px, -6px);
+    transform: rotate(-45deg) translate(7px, -6px);
   }
 }
+

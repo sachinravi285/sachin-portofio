@@ -55,7 +55,6 @@ nav.scrolled {
   transition: width 0.3s ease;
 }
 
-
 .resume-button {
   background: linear-gradient(45deg, #00baff, #4caf50);
   color: white;
@@ -105,6 +104,8 @@ nav.scrolled {
     right: 0; /* Show the menu */
   }
 
+  .menu-toggle.active .hamburger:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
   }
 
   .menu-toggle.active .hamburger:nth-child(2) {
