@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/sachin-portofio/static/css/main.e09db3b5.css",
+    "main.js": "/sachin-portofio/static/js/main.1625e5e2.js",
+    "static/media/3.png": "/sachin-portofio/static/media/3.4a95c7d96646fd21efe9.png",
+    "static/media/5.jpg": "/sachin-portofio/static/media/5.c1e92eb9bb81cae7e7e7.jpg",
+    "static/media/sachin.pdf": "/sachin-portofio/static/media/sachin.45c2ed9d59aee9836915.pdf",
+    "static/media/4.jpg": "/sachin-portofio/static/media/4.de6dfbfe80d0532a0cb1.jpg",
+    "static/media/2.jpeg": "/sachin-portofio/static/media/2.ca5cf10a6f8a948dce34.jpeg",
+    "static/media/2.jpg": "/sachin-portofio/static/media/2.ca5cf10a6f8a948dce34.jpg",
+    "index.html": "/sachin-portofio/index.html",
+    "main.e09db3b5.css.map": "/sachin-portofio/static/css/main.e09db3b5.css.map",
+    "main.1625e5e2.js.map": "/sachin-portofio/static/js/main.1625e5e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e09db3b5.css",
+    "static/js/main.1625e5e2.js"
+  ]
+}
