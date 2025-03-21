@@ -1,16 +1,17 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import BackToTop from "./components/BackToTop";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Skills from "./pages/Skills";
-import Projects from "./pages/Projects";
-import Services from "./pages/Services";
-import Contact from "./pages/Contact";
-import "./App.css";
+import { HashRouter as Router, Routes, Route } from "react-router-dom"
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
+import BackToTop from "./components/BackToTop"
+import Home from "./pages/Home"
+import About from "./pages/About"
+import Skills from "./pages/Skills"
+import Projects from "./pages/Projects"
+import Services from "./pages/Services"
+import Contact from "./pages/Contact"
+import "./App.css"
 
 function App() {
+  // Using HashRouter instead of BrowserRouter for GitHub Pages compatibility
   return (
     <Router>
       <Navbar />
@@ -25,7 +26,8 @@ function App() {
       <Footer />
       <BackToTop />
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App
+

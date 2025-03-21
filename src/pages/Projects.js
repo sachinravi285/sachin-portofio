@@ -1,14 +1,10 @@
-import img1 from '../images/3.png';
-import img2 from '../images/4.jpg';
-import img3 from '../images/5.jpg';
-
 function Projects() {
   const projects = [
     {
       title: "Online Library Portal",
       description:
         "A modern library management system with secure user authentication, real-time inventory tracking, and interactive user dashboard. Built with modern web technologies and RESTful APIs.",
-      image: img1,
+      image: process.env.PUBLIC_URL + "/images/3.png",
       demoUrl: "https://sachinravi285.github.io/Online-Library-Portal/",
       repoUrl: "https://github.com/sachinravi285/Online-Library-Portal.git",
     },
@@ -16,7 +12,7 @@ function Projects() {
       title: "COVID Awareness Platform",
       description:
         "Interactive information hub featuring real-time statistics, prevention guidelines, and vaccine tracking. Integrated with WHO API for accurate global data visualization.",
-      image: img2,
+      image: process.env.PUBLIC_URL + "/images/4.jpg",
       demoUrl: "https://sachinravi285.github.io/COVID-Awareness-Website/",
       repoUrl: "https://github.com/sachinravi285/COVID-Awareness-Website.git",
     },
@@ -24,7 +20,7 @@ function Projects() {
       title: "AI Chatbot Solution",
       description:
         "Natural language processing chatbot integrated with machine learning capabilities. Features sentiment analysis and context-aware responses for enhanced user experience.",
-      image: img3,
+      image: process.env.PUBLIC_URL + "/images/5.jpg",
       demoUrl: "https://sachinravi285.github.io/Virtual_Chat/",
       repoUrl: "https://github.com/sachinravi285/Virtual_Chat",
     },
